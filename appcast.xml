@@ -8,10 +8,10 @@
          <item>
             <title>Version 0.9.0 (Initial Beta)</title>
             <sparkle:releaseNotesLink>
-              http://simonremote.github.io/releases/0.9.html
+              http://simonremote.github.io/releases/0.9.0.html
             </sparkle:releaseNotesLink>
             <pubDate>Fri, 09 May 2014 00:31:26 -0400</pubDate>
-            <enclosure url="http://you.com/app/Your Great App 1.5.zip" sparkle:version="0.9.0" length="1472893" type="application/octet-stream" sparkle:dsaSignature="234818feCa1JyW30nbkBwainOzrN6EQuAh" />
+            <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.0/SimonRemote-Mac.zip" sparkle:version="0.9.0" length="1472893" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCm0TeXH79VB5YgpFIm9meSC2qZ9gIVAOgUpIEOg/LbhzMWLnXsDvJGYrGA" />
          </item>
    </channel>
 </rss>
