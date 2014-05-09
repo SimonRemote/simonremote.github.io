@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>SimonRemote Changelog</title>
+      <link>http://simonremote.github.io/appcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>
+         <item>
+            <title>Version 0.9.0 (Initial Beta)</title>
+            <sparkle:releaseNotesLink>
+              http://simonremote.github.io/releases/0.9.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Fri, 09 May 2014 00:31:26 -0400</pubDate>
+            <enclosure url="http://you.com/app/Your Great App 1.5.zip" sparkle:version="0.9.0" length="1472893" type="application/octet-stream" sparkle:dsaSignature="234818feCa1JyW30nbkBwainOzrN6EQuAh" />
+         </item>
+   </channel>
+</rss>
