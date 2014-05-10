@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-   <channel>
-      <title>SimonRemote Changelog</title>
-      <link>http://simonremote.github.io/appcast.xml</link>
-      <description>Most recent changes with links to updates.</description>
-      <language>en</language>
-        <item>
-           <title>Version 0.9.1</title>
-           <sparkle:releaseNotesLink>
-             http://simonremote.github.io/releases/0.9.1.html
-           </sparkle:releaseNotesLink>
-           <pubDate>Fri, 09 May 2014 03:06:26 -0400</pubDate>
-           <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.1/SimonRemote-Mac.zip" sparkle:version="0.9.1" length="1065813" type="application/octet-stream" sparkle:dsaSignature="MC0CFGYIvS7f6Q+UnlmVNWoznb5MQqgeAhUAi0Ay2lQeBQcGKph4B07UXFh6xwo=" />
-        </item>
-         <item>
-            <title>Version 0.9.0 (Initial Beta)</title>
-            <sparkle:releaseNotesLink>
-              http://simonremote.github.io/releases/0.9.0.html
-            </sparkle:releaseNotesLink>
-            <pubDate>Fri, 09 May 2014 00:31:26 -0400</pubDate>
-            <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.0/SimonRemote-Mac.zip" sparkle:version="0.9.0" length="552633" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDHukCXoPwbzAokGauivCttIQl+TAIUIlMy1hhRaFOaKZyAT6qDv5zNTO8=" />
-         </item>
-   </channel>
+<channel>
+  <title>SimonRemote Changelog</title>
+  <link>http://simonremote.github.io/appcast.xml</link>
+  <description>Most recent changes with links to updates.</description>
+  <language>en</language>
+  <item>
+    <title>Version 0.9.1</title>
+    <sparkle:releaseNotesLink>
+      http://simonremote.github.io/releases/0.9.1.html
+    </sparkle:releaseNotesLink>
+    <pubDate>Fri, 09 May 2014 03:06:26 -0400</pubDate>
+    <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.1/SimonRemote.app.zip" sparkle:version="0.9.1" length="103775" type="application/octet-stream" sparkle:dsaSignature="MC0CFQDvF+29V7n2lzEmYWgoWWtjet9LuQIUBsz1Iqus3ArnD1OpnRXnfpIR0bU=" />
+  </item>
+  <item>
+    <title>Version 0.9.0 (Initial Beta)</title>
+    <sparkle:releaseNotesLink>
+      http://simonremote.github.io/releases/0.9.0.html
+    </sparkle:releaseNotesLink>
+    <pubDate>Fri, 09 May 2014 00:31:26 -0400</pubDate>
+    <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.0/SimonRemote.app.zip" sparkle:version="0.9.0" length="103772" type="application/octet-stream" sparkle:dsaSignature="MC0CFAkxvfJFcATMtZm+Az7yKpf6bnzqAhUA/j0WQljH4joSP5qyp7dd92FCCGw=" />
+  </item>
+</channel>
 </rss>
