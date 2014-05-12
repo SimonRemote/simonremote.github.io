@@ -1,1 +1,145 @@
-Hello World!
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SimonRemote by SimonRemote</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>SimonRemote</h1>
+        <p>Enable Pebble to control your Mac</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/SimonRemote" class="button fork"><strong>View On GitHub</strong></a>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="simonremote" class="anchor" href="#simonremote"><span class="octicon octicon-link"></span></a>SimonRemote</h1>
+
+<h2>
+<a name="control-your-mac-computer-through-your-pebble" class="anchor" href="#control-your-mac-computer-through-your-pebble"><span class="octicon octicon-link"></span></a>Control your Mac computer through your Pebble.</h2>
+
+<p>This application(s) will allow you to control your Mac's various scriptable (AppleScript) features through your Pebble or other smart watch. </p>
+
+<p>I have set up a server similar to FireBase in which it passes data seamlessly from one device to another. In this case that is data from the Pebble to the Mac and vice versa. </p>
+
+<p>Some existing solutions already exist to some degree:</p>
+
+<ul>
+<li><a href="https://github.com/luisivan/pebble-slides">Pebble Slides</a></li>
+<li><a href="http://joe.sh/using-pebble-control-mac">Joseph Schmitt's solution</a></li>
+<li><a href="https://github.com/Hexxeh/libpebble">libpebble</a></li>
+</ul><p>However, there are downfalls to each. Pebble Slides solution is limited to controlling a computer's keyboard and forces the user to run a python server and deal with ports. The last two both use libpebble, which is connecting the Pebble directly to the Mac using Bluetooth, which isn't reliable and also is inconvinient for the end user.</p>
+
+<h2>
+<a name="benefits-of-my-solution" class="anchor" href="#benefits-of-my-solution"><span class="octicon octicon-link"></span></a>Benefits of my solution</h2>
+
+<h3>
+<a name="a-few-easy-steps" class="anchor" href="#a-few-easy-steps"><span class="octicon octicon-link"></span></a>A few easy steps.</h3>
+
+<ol>
+<li>
+<p>Load up the application and click on the menu bar icon. Take note of channel code</p>
+
+<p><img src="http://i.imgur.com/nUC50gL.png" alt=""></p>
+</li>
+<li>
+<p>Go to the Pebble application under SimonRemote's settings page and enter that code. Click Submit</p>
+
+<p><img src="http://i.imgur.com/zMIUhzi.png" alt=""></p>
+</li>
+<li>
+<p>Load the Pebble app and control.</p>
+
+<p><img src="http://i.imgur.com/J2DIfbx.png" alt=""><img src="http://i.imgur.com/WtKslFR.png" alt=""></p>
+</li>
+</ol><h3>
+<a name="network-indifferent" class="anchor" href="#network-indifferent"><span class="octicon octicon-link"></span></a>Network indifferent</h3>
+
+<p>My solution will work over any type of internet connection since both clients connect simultaneously to the server. There is no requirement to open ports or be on the same network. Clients can disconnect and connect as they choose and restore sessions.</p>
+
+<h3>
+<a name="multiple-applications" class="anchor" href="#multiple-applications"><span class="octicon octicon-link"></span></a>Multiple Applications</h3>
+
+<p>The Pebble application being developed currently will be released with support for the following applications</p>
+
+<ul>
+<li>iTunes</li>
+<li>Spotify</li>
+<li>Rdio</li>
+<li>Keynote</li>
+<li>PowerPoint</li>
+<li>VLC</li>
+</ul><p>Adding more is easy.</p>
+
+<h3>
+<a name="two-way-communication" class="anchor" href="#two-way-communication"><span class="octicon octicon-link"></span></a>Two-Way Communication</h3>
+
+<p>The server has the ability to send information in both directions, so when you change a song on the Pebble, the next song will be updated on the screen instantly.</p>
+
+<h2>
+<a name="future-ideas" class="anchor" href="#future-ideas"><span class="octicon octicon-link"></span></a>Future ideas</h2>
+
+<h3>
+<a name="all-applications" class="anchor" href="#all-applications"><span class="octicon octicon-link"></span></a>All applications</h3>
+
+<ul>
+<li>Choose computer?</li>
+</ul><h3>
+<a name="powerpoint--keynote" class="anchor" href="#powerpoint--keynote"><span class="octicon octicon-link"></span></a>PowerPoint &amp; Keynote</h3>
+
+<ul>
+<li>Notes fetching/displaying</li>
+<li>Force next/previous slide (skip animation events)</li>
+</ul><h3>
+<a name="vlc" class="anchor" href="#vlc"><span class="octicon octicon-link"></span></a>VLC</h3>
+
+<ul>
+<li>Do it</li>
+</ul><h2>
+<a name="projects-used" class="anchor" href="#projects-used"><span class="octicon octicon-link"></span></a>Projects Used</h2>
+
+<ul>
+<li><a href="https://github.com/Worlize/WebSocket-Node">WebSocket-Node</a></li>
+<li><a href="https://github.com/shpakovski/Popup">Popup</a></li>
+<li>
+<a href="https://github.com/Skipstone/Skipstone">SkipStone</a> (for reference)</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-50879604-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
