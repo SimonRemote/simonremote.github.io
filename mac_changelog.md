@@ -1,4 +1,6 @@
-# Release Notes
+[gimmick:theme](yeti)
+
+# SimonRemote Mac Release Notes
 ## v0.9.1
 - New icon
 - Apply Code Signing
