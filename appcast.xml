@@ -6,9 +6,17 @@
   <description>Most recent changes with links to updates.</description>
   <language>en</language>
   <item>
+    <title>Version 0.9.2 </title>
+    <sparkle:releaseNotesLink>
+      http://simonremote.github.io/#!mac_changelog.md#v0.9.2
+    </sparkle:releaseNotesLink>
+    <pubDate>Wed, 21 May 2014 00:16:00 -0400</pubDate>
+    <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.2/SimonRemote-0.9.2.zip" sparkle:version="0.9.2" length="3467931" type="application/octet-stream" sparkle:dsaSignature="MC4CFQD/a07cH2lm6X0ljvyh/nDEXyyM2gIVAPKtasMarzTaV6B/dW7dbRJdnSIB" />
+  </item>
+  <item>
     <title>Version 0.9.1 </title>
     <sparkle:releaseNotesLink>
-      http://simonremote.github.io/releases/0.9.1.html
+      http://simonremote.github.io/#!mac_changelog.md#v0.9.1
     </sparkle:releaseNotesLink>
     <pubDate>Sun, 13 May 2014 23:51:26 -0400</pubDate>
     <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.1/SimonRemote-0.9.1.zip" sparkle:version="0.9.1" length="3467858" type="application/octet-stream" sparkle:dsaSignature="MC0CFGMWCjegsJmMNpzfI/7xiBC/q5/SAhUAsA+IzOfNjp1Q+YNvRGCI9Z1ljaY=" />
@@ -16,7 +24,7 @@
   <item>
     <title>Version 0.9.0 (Initial Beta)</title>
     <sparkle:releaseNotesLink>
-      http://simonremote.github.io/releases/0.9.0.html
+      hhttp://simonremote.github.io/#!mac_changelog.md#v0.9.0
     </sparkle:releaseNotesLink>
     <pubDate>Sun, 11 May 2014 18:38:26 -0400</pubDate>
     <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.0/SimonRemote-0.9.0.zip" sparkle:version="0.9.0" length="3152766" type="application/octet-stream" sparkle:dsaSignature="MC0CFA06YTW04U53kleAGRpzf2ixi843AhUA5Kr4pFkwBjKfsrLfMjwG/E9Eugo=" />
