@@ -50,13 +50,11 @@
       channel.value=localStorage.getItem("channel");
     }  
 
-    function save() {
-      localStorage.setItem("channel",channel.value);
-    }
-
     function done() {
-      save();
-      var data=JSON.stringify({code:channel.value.trim()});
+      localStorage.setItem("channel",channel.value);
+
+      var data=JSON.stringify({code:channel.value.trim().toUpperCase()});
+      console.log(data);
       window.location.href = "pebblejs://close#"+data;
     }
     window.addEventListener("load", init, false);
