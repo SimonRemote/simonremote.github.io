@@ -57,7 +57,7 @@
     function done() {
       save();
       var data=JSON.stringify({code:channel.value.trim()});
-      document.location = "pebblejs://close#"+data;
+      window.location.href = "pebblejs://close#"+data;
     }
     window.addEventListener("load", init, false);
 
