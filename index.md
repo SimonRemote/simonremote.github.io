@@ -35,7 +35,7 @@ SimonRemote is a solution that uses a Pebble to control a user's Mac computer. I
 
 ## Mac Application
 - Subtle menu-bar application
-- Shows number of Pebble's connected
+- Shows number of Pebble devices controlling computer
 
 ----
 Created by [Tyler Hoffman](https://github.com/tyhoff)
