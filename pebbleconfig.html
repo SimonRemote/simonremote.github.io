@@ -53,7 +53,9 @@
     function done() {
       localStorage.setItem("channel",channel.value);
 
-      var data=JSON.stringify({code:channel.value.trim().toUpperCase()});
+      channel = channel.trim().toUpperCase();
+
+      var data=JSON.stringify({code:channel});
       console.log(data);
       window.location.href = "pebblejs://close#"+data;
     }
