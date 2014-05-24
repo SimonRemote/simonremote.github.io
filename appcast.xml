@@ -11,7 +11,7 @@
       http://simonremote.github.io/releases/0.9.0.html
     </sparkle:releaseNotesLink>
     <pubDate>Sat, 24 May 2014 11:17:26 -0400</pubDate>
-    <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.0/SimonRemote-0.9.0.zip" sparkle:version="0.9.0" length="3467886" type="application/octet-stream" sparkle:dsaSignature="MCwCFF1ov3CC3B7DosRX5cewhDLnxtvNAhQaToxpZ5ZgDgGWC4j8ER3AzqZFRg==" />
+    <enclosure url="https://github.com/SimonRemote/simon-mac/releases/download/v0.9.0/SimonRemote-0.9.0.zip" sparkle:version="0.9.0" length="1382022" type="application/octet-stream" sparkle:dsaSignature="MC0CFHb3SoEGmA5tpYsWQMeoyC72iUHwAhUAojBLEZH+c/LFXHqIOpELk+5OfZo=" />
   </item>
 </channel>
 </rss>
