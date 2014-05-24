@@ -17,3 +17,7 @@ This is the companion application for the [Pebble SimonRemote application](https
 - **"# controllers connected"** - The number of Pebbles (controllers) currently subscribed to the channel.
 - **Generate** - Generates a new *Channel*. 
 - **Quit** - idk, try it out.
+
+## Requirements
+- Allow "Assistive Devices" for SimonRemote on Mavericks
+- OS X 10.7+
