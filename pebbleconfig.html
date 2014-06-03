@@ -47,12 +47,12 @@
     var channel;
     function init() { 
       channel = document.getElementById("channel");
-      channel.value=localStorage.getItem("channel");
+      channel.value = window.localStorage.getItem("code");
     }  
 
     function done() {
       var channelCode = channel.value.trim().toUpperCase();
-      localStorage.setItem("channel",channelCode);
+      window.localStorage.setItem("code",channelCode);
       var data=JSON.stringify({code:channelCode});
       window.location.href = "pebblejs://close#"+data;
     }
