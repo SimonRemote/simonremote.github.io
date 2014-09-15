@@ -10,11 +10,7 @@ SimonRemote app should work in most scenarios (Wifi, 3G, 4G, etc), however, if t
 
 Note: The Pebble app has not been submitted to the Pebble App Store yet, so I have only listed instructions for installing from source.
 
-1. Ensure that the [Pebble SDK](https://developer.getpebble.com/2/) is installed properly.
-2. Clone the latest SimonRemote-Pebble source code by running `git clone https://github.com/simonremote/simon-pebble`
-3. `cd simon-pebble` 
-4. `pebble build`
-4. `pebble install --phone <phone_ip>`
+1. Install from the Pebble App Store ([Click Here!](https://apps.getpebble.com/applications/54166746ba06e4e0db000073)) 
 5. In the configuration page, enter the "Channel" given in the menubar dropdown from the Mac application and click 'Submit'
 
 ![](http://i.imgur.com/kmkbzwN.png) 

@@ -5,4 +5,4 @@
 [Latest Github Release](https://github.com/SimonRemote/simon-mac/releases/latest)
 
 ## Pebble 
-The application is not released on the Pebble App Store yet. You will have to follow the [Pebble Quickstart Guide](pebble.md)
+[Pebble App Store Link](https://apps.getpebble.com/applications/54166746ba06e4e0db000073)

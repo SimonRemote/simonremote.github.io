@@ -2,7 +2,7 @@
 
 # Mac Quickstart
 
-This is the companion application for the [Pebble SimonRemote application](https://github.com/simonremote/simon-pebble). It allows the Pebble to control many aspects of the Mac, such as music players, presentaiton software, and the volume (more to come). 
+This is the companion application for the [Pebble SimonRemote application](https://apps.getpebble.com/applications/54166746ba06e4e0db000073). It allows the Pebble to control many aspects of the Mac, such as music players, presentaiton software, and the volume (more to come). 
 
 ## Setup
 
