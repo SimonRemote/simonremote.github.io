@@ -11,7 +11,7 @@ SimonRemote is a solution that uses a Pebble to control a user's Mac computer. I
 
 
 # 3 Simple Instructions
-1. Download the [Mac application](mac.md) and the [Pebble application](pebble.md).
+1. Download the Mac application ([Download Link](https://github.com/SimonRemote/simon-mac/releases/download/v1.0.1/SimonRemote-1.0.1.zip)) and the Pebble application ([Pebble App Store Link](https://apps.getpebble.com/applications/54166746ba06e4e0db000073)).
 2. Run the Mac application, click the menu-bar icon, and record the 8 character channel.
 3. Run the Pebble application and enter the channel into the settings page.
 4. That's it! Start controlling!
