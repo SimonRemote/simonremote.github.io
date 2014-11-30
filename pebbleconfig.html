@@ -35,6 +35,7 @@
       <input type="text" style="text-transform: uppercase" class="form-control" id="channel" placeholder="ex. ABCDEFGH">
     </div>
     <button class="btn btn-primary btn-lg btn-save btn-block ui-btn ui-shadow ui-corner-all" onclick="done()">Save</button>
+    <button class="btn btn-default btn-lg btn-save btn-block ui-btn ui-shadow ui-corner-all" onclick="cancel()">Cancel</button>
 
     <br>
     <h4>Note</h4>
@@ -48,12 +49,12 @@
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
 
-  <script language="javascript" type="text/javascript">  
+  <script language="javascript" type="text/javascript">
     var channel;
-    function init() { 
+    function init() {
       channel = document.getElementById("channel");
       channel.value = window.localStorage.getItem("code");
-    }  
+    }
 
     function done() {
       var channelCode = channel.value.trim().toUpperCase();
@@ -61,6 +62,11 @@
       var data=JSON.stringify({code:channelCode});
       window.location.href = "pebblejs://close#"+data;
     }
+
+    function cancel() {
+      window.location.href = "pebblejs://close";
+    }
+
     window.addEventListener("load", init, false);
 
   </script>
