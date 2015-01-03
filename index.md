@@ -31,6 +31,10 @@ SimonRemote is a solution that uses a Pebble to control a user's Mac computer. I
 - Toggle shuffle
 - Show current title, artist, and album of currently playing song
 - Shows progress of current song
+- Control specific app's volume
+
+### System
+- Simulate the click of the space bar or arrow keys
 - Control Mac's system volume
 
 ## Mac Application

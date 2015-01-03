@@ -8,7 +8,7 @@
 
 [Changelog]()
 
-  * [Mac](mac_changelog.md)
+  * [Mac](https://github.com/SimonRemote/simon-mac/releases)
   * [Pebble](pebble_changelog.md)
 
 [Download](download.md)
