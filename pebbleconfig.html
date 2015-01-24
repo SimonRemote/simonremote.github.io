@@ -50,6 +50,14 @@
   <!-- Placed at the end of the document so the pages load faster -->
 
   <script language="javascript" type="text/javascript">
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+
     var channel;
     function init() {
       channel = document.getElementById("channel");
@@ -60,7 +68,9 @@
       var channelCode = channel.value.trim().toUpperCase();
       window.localStorage.setItem("code",channelCode);
       var data=JSON.stringify({code:channelCode});
-      window.location.href = "pebblejs://close#"+data;
+
+      var return_to = getParameterByName('return_to') || 'pebblejs://close#';
+      window.location.href = return_to + data;
     }
 
     function cancel() {
