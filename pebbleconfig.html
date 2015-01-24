@@ -70,7 +70,8 @@
       var data=JSON.stringify({code:channelCode});
 
       var return_to = getParameterByName('return_to') || 'pebblejs://close#';
-      window.location.href = return_to + data;
+      console.log(return_to + encodeURIComponent(data));
+      window.location.href = return_to + encodeURIComponent(data);
     }
 
     function cancel() {
