@@ -71,11 +71,11 @@
 
       var return_to = getParameterByName('return_to') || 'pebblejs://close#';
       console.log(return_to + encodeURIComponent(data));
-      document.location = return_to + encodeURIComponent(data);
+      location.href = return_to + encodeURIComponent(data);
     }
 
     function cancel() {
-      document.location = "pebblejs://close";
+      location.href = "pebblejs://close";
     }
 
     window.addEventListener("load", init, false);
